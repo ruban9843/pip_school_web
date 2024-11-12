@@ -8,7 +8,6 @@ import Sidebar from "./Sidebar";
 export default function Header() {
   return (
   <>
-      
       <Navbar fluid rounded >
             <div className="flex gap-6 " >
             <Sidebar />
@@ -23,7 +22,7 @@ export default function Header() {
               Home
             </Navbar.Link>
             <Navbar.Link as={Link} href="/about">About</Navbar.Link>
-            <Navbar.Link href="#">Admission</Navbar.Link>
+            <Navbar.Link href="/admission">Admission</Navbar.Link>
             <Navbar.Link href="#" >Contact</Navbar.Link>
           </Navbar.Collapse>
       </Navbar>
